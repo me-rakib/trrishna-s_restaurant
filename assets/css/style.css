@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Oswald&family=Righteous&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+.font-advent {
+    font-family: Advent pro;
+}
+.font-advent-size {
+    font-family: Advent pro;
+    font-size: 1.3rem;
+}
+.font-cursive {
+    font-family: cursive;
+}
+.fab,.fas {
+    font-size: 2rem;
+    color: rgba(0,0,0,0.8)
+}
+.nav-color {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: Oswald;
+}
+.nav-color:hover {
+    color: rgba(0,0,0,0.7);
+    text-decoration: overline;
+    text-decoration-color: antiquewhite;
+}
+.home-page {
+    
+}
+.home-page-content{
+    width: 100%;
+    height: 720px;
+    background: url(../img/home.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.v-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.8)
+    
+}
+
+/* Section Three*/
+.light-bg {
+    background: rgba(255,255,255,0.8)
+}
+
+/* Section Four*/
+.section-four {
+    width: 100%;
+    height: 250px;
+    background: url(../img/section-5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section-four-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    font-family: righteous;
+    color: rgba(255,255,255,0.7);
+}
+
+/* Section Six*/
+.sec-six-bg {
+    background: rgba(255,255,255,0.8);
+}
+
+/* Section Seven*/
+.sec-7 {
+    width: 100%;
+    height: 250px;
+    background: url(../img/sec-6.jpg) no-repeat;
+    background-position: center;
+}
+.section-7 {
+    background: url(../img/form.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sec-sev-bg {
+    background: rgba(0,0,0,0.7);
+}
